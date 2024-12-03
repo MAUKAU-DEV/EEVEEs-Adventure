@@ -2,8 +2,11 @@
 A community developed game by the ZenniverseLive community. 
 More information and game design document comming soon.
 
+## Game Design Document
+
+
 ## Rules
-(comming soon)
+-> [RULES.md](./Docs/RULES.md)
 
 ## Documentation
 (In the wiki)
