@@ -76,7 +76,7 @@ MonoBehaviour:
   _moveSpeed: 8
   _crouchSpeed: 4
   _jumpForce: 15
-  _gravity: 16
+  _gravity: 22
   _isGroundedDistance: 1.1
   _rigidbody: {fileID: 8485743486298843792}
 --- !u!1 &4207465210463301479

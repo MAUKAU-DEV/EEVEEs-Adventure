@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _moveSpeed = 8.0f;
     [SerializeField] private float _crouchSpeed = 4.0f;
     [SerializeField] private float _jumpForce = 15.0f;
-    [SerializeField] private float _gravity = 16.0f;
+    [SerializeField] private float _gravity = 22.0f;
     [SerializeField] private float _isGroundedDistance = 1.1f;
 
     [Header("Connected Components")]
@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
     /// <summary>
     /// SideMovement moves the player to the sides on the X axis. If the crouch button is pressed it moves the player with the crouch speed.
     /// </summary>
-    /// <param name="ctx">The CallbackContext from the input action.</param>
+    /// <param name="inputValue">The float from the input action.</param>
     private void SideMovement(float inputValue)
     {
         if (!this._inputController.PlayerGameplay.Movement_Crouch.IsPressed())
