@@ -42,7 +42,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "New action",
+                    "name": "Attack",
                     "type": "Button",
                     "id": "4342765f-5b1e-4046-8ee4-258ecbc561e0",
                     "expectedControlType": "",
@@ -86,15 +86,37 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "",
-                    "id": "ad52b639-0657-4763-91be-6f92e8a93195",
-                    "path": "<Gamepad>/leftStick/x",
+                    "name": "1D Axis",
+                    "id": "9f6d3e7a-6818-4d01-9756-0f1279755cea",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Gamepad",
+                    "groups": "",
+                    "action": "Movement_Sides",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "420c0755-e5a0-4e1c-9baa-f72ccef5946a",
+                    "path": "<Gamepad>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Movement_Sides",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "77270b61-7f9a-4a20-a76d-2eeac9c13658",
+                    "path": "<Gamepad>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement_Sides",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 },
                 {
                     "name": "",
@@ -169,7 +191,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "New action",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -180,7 +202,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard",
-                    "action": "New action",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -191,7 +213,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard",
-                    "action": "New action",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
