@@ -75,7 +75,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
             ],
             ""bindings"": [
                 {
-                    ""name"": ""1D Axis"",
+                    ""name"": ""Keyboard"",
                     ""id"": ""93f46f51-f33f-45d7-92a3-1725b5d3fa84"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
@@ -108,7 +108,7 @@ public partial class @InputController: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""1D Axis"",
+                    ""name"": ""Gamepad"",
                     ""id"": ""9f6d3e7a-6818-4d01-9756-0f1279755cea"",
                     ""path"": ""1DAxis"",
                     ""interactions"": """",
@@ -119,23 +119,23 @@ public partial class @InputController: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""negative"",
+                    ""name"": ""Positive"",
                     ""id"": ""420c0755-e5a0-4e1c-9baa-f72ccef5946a"",
                     ""path"": ""<Gamepad>/leftStick/left"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": "";Gamepad"",
                     ""action"": ""Movement_Sides"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""positive"",
+                    ""name"": ""Negative"",
                     ""id"": ""77270b61-7f9a-4a20-a76d-2eeac9c13658"",
                     ""path"": ""<Gamepad>/leftStick/right"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": "";Gamepad"",
                     ""action"": ""Movement_Sides"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
