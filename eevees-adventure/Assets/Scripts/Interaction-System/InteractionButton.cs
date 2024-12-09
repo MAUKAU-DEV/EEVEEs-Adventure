@@ -1,13 +1,15 @@
-using System;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
+/// <summary>
+/// Manages the interactions of the player based on key input.
+/// </summary>
 public class InteractionButton: InteractionObject
 {
     public bool _buttonToggle = true;
     public bool _buttonStartState = false;
     public InteractionPrompt _interactPrompt;
 
+    // Internal
     private InputController _inputController;
     private bool _isPlayerInside = false;
     private bool _wasUsed = false;
@@ -41,6 +43,10 @@ public class InteractionButton: InteractionObject
         this._isPlayerInside = false;
     }
 
+    /// <summary>
+    /// Gets called by the players interact input.
+    /// Checks if the player is inside and if the button can be used.
+    /// </summary>
     private void CheckIfPlayerIsInCollider()
     {
         if(!this._isPlayerInside) return;
@@ -50,6 +56,9 @@ public class InteractionButton: InteractionObject
         TriggerAction();
     } 
 
+    /// <summary>
+    /// The action that triggers the action event.
+    /// </summary>
     public override void TriggerAction()
     {
         Debug.Log("BUTTON ACTION");
